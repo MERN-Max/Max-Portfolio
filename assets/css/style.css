@@ -75,7 +75,7 @@ a {
 	text-decoration: none;
 }
 img {
-	max-width: 100%;
+	max-width: 60%;
 	height: auto;
 	display: block;
 }
@@ -240,4 +240,19 @@ img {
 }
 button:hover {
 	box-shadow: 0 10px rgba(0, 0, 0, 0.15);
+}
+.about-container {
+	row-gap: 2rem;
+	text-align: center;
+}
+.about_subtitle {
+	margin-bottom: var(--mb-2);
+}
+.about_img {
+	position: relative;
+	justify-self: center;
+}
+.about_img img {
+	width: 200px;
+	border-radius: 0.5rem;
 }
