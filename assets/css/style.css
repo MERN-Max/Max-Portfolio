@@ -75,9 +75,9 @@ a {
 	text-decoration: none;
 }
 img {
-	max-width: 60%;
+	max-width: 100%;
 	height: auto;
-	display: block;
+	/* display: block; */
 }
 
 /* CLASS CSS */
@@ -222,11 +222,13 @@ img {
 	color: var(--first-color);
 	cursor: pointer;
 }
-.home_img {
+.home_img img {
 	position: absolute;
+	align-items: center;
+	border-radius: 0.5rem;
 	right: 0;
 	bottom: 0;
-	width: 295px;
+	width: 200px;
 }
 
 /* Buttons */
@@ -255,7 +257,7 @@ button:hover {
 	margin-bottom: var(--mb-2);
 }
 .about_img img {
-	width: 180px;
+	width: 200px;
 	border-radius: 0.5rem;
 }
 
@@ -289,6 +291,7 @@ button:hover {
 }
 .skills_names {
 	display: flex;
+	justify-content: center;
 	align-items: center;
 }
 .skills_bar {
@@ -317,6 +320,79 @@ button:hover {
 }
 .skills_img {
 	display: flex;
-	justify-items: center;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	line-height: 1.2;
+}
+.skills_img img {
+	width: 100%;
+	height: auto;
+	display: flex;
 	border-radius: 0.5rem;
+}
+
+/* Work */
+.work {
+	text-align: center;
+}
+.work_container {
+	row-gap: 2rem;
+}
+.work_img {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	border-radius: 0.5rem;
+	overflow: hidden;
+	box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+}
+.work_img img {
+	width: 100%;
+	transition: 1s;
+	cursor: pointer;
+}
+.work_img img:hover {
+	transform: scale(1.1);
+}
+/* Contact */
+.contact_input {
+	width: 100%;
+	font-size: var(--normal-font-size);
+	font-weight: var(--font-semi);
+	padding: 1rem;
+	border-radius: 0.5rem;
+	border: 1.5px solid var(--second-color);
+	outline: none;
+	margin-bottom: var(--mb-4);
+}
+.contact_button {
+	display: block;
+	border: none;
+	outline: none;
+	font-size: var(--normal-font-size);
+	cursor: pointer;
+	margin-left: auto;
+}
+
+/* Footer */
+
+.footer {
+	background-color: var(--second-color);
+	color: #fff;
+	text-align: center;
+	font-weight: var(--font-semi);
+	padding: 2rem 0;
+}
+.footer_title {
+	font-size: 2rem;
+	margin-bottom: var(--mb-4);
+}
+.footer_social {
+	margin-bottom: var(--mb-4);
+}
+.footer_icon {
+	font-size: 2rem;
+	color: #fff;
+	margin: 0 var(--mb-2);
 }
