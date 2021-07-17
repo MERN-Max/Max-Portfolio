@@ -202,11 +202,18 @@
 
 				<div class="contact-container bd-grid">
 					<form method="POST" action="https://formspree.io/f/xpzkjjry" class="contact_form">
-						<input type="text" placeholder="Name" class="contact_input" />
-						<input type="email" placeholder="Email" class="contact_input" />
-						<textarea name="" id="" cols="0" rows="10" class="contact_input"></textarea>
+						<input type="text" placeholder="Name" class="contact_input" name="name" required />
+						<input type="email" placeholder="Email" class="contact_input" name="email" required />
+						<textarea
+							name="message"
+							id=""
+							cols="0"
+							rows="10"
+							class="contact_input"
+							required
+						></textarea>
 
-						<input type="submit" value="Submit" class="contact_button button" />
+						<input type="submit" value="Submit" class="contact_button button" name="submit" />
 					</form>
 				</div>
 			</section>
