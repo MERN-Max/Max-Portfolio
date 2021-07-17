@@ -392,10 +392,14 @@ img {
 .footer_social {
 	margin-bottom: var(--mb-4);
 }
-.footer_icon {
+.footer_icon i {
 	font-size: 2rem;
 	color: #fff;
 	margin: 0 var(--mb-2);
+	transition: 0.5s;
+}
+.footer_icon i:hover {
+	transform: scale(1.1);
 }
 
 /* Media Queries */
