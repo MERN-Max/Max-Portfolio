@@ -276,7 +276,8 @@ img {
 }
 .skills_data {
 	display: flex;
-	/* justify-content:; */
+	justify-content: center;
+	flex-direction: column;
 	align-items: center;
 	position: relative;
 	font-weight: var(--font-semi);
