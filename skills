@@ -1,0 +1,49 @@
+	<div class="skills_data">
+							<div class="skills_names">
+								<i class="bx bxl-html5 skills_icon"></i>
+								<span class="skills_name">HTML5</span>
+							</div>
+							<!-- <div class="skills_percentage">
+								<span class="skills_percentage"></span></span>
+							</div> -->
+							<div class="skills_bar skills_html"></div>
+						</div>
+						<div class="skills_data">
+							<div class="skills_names">
+								<i class="bx bxl-css3 skills_icon"></i>
+								<span class="skills_name">CSS3</span>
+							</div>
+							<!-- <div class="skills_percentage">
+								<span class="skills_percentage">85%</span>
+							</div> -->
+							<div class="skills_bar skills_css"></div>
+						</div>
+						<div class="skills_data">
+							<div class="skills_names">
+								<i class="bx bxl-javascript skills_icon"></i>
+								<span class="skills_name">Javascript</span>
+							</div>
+							<!-- <div class="skills_percentage">
+								<span class="skills_percentage">65%</span>
+							</div> -->
+							<div class="skills_bar skills_js"></div>
+						</div>
+						<div class="skills_data">
+							<div class="skills_names">
+								<i class="bx bxl-react skills_icon"></i>
+								<span class="skills_name">React JS</span>
+							</div>
+							<!-- <div class="skills_percentage">
+								<span class="skills_percentage">50%</span>
+							</div> -->
+							<div class="skills_bar skills_react"></div>
+						</div>
+						<div class="skills_data">
+							<div class="skills_names">
+								<i class="bx bxl-figma skills_icon"></i>
+								<span class="skills_name">UX/UI</span>
+							</div>
+							<!-- <div class="skills_percentage">
+								<span class="skills_percentage">90%</span>
+							</div> -->
+							<div class="skills_bar skills_ux"></div>
