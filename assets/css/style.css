@@ -315,7 +315,7 @@ img {
 .skills_icon {
 	display: flex;
 	justify-content: center;
-	font-size: 2rem;
+	font-size: 1.3rem;
 	color: var(--first-color);
 	height: auto;
 	align-items: center;
