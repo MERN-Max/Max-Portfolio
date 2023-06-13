@@ -230,6 +230,7 @@ img {
 	bottom: 0;
 	box-shadow: none;
 	width: 239px;
+	border-radius: 15rem;
 }
 
 /* Buttons */
@@ -256,13 +257,15 @@ img {
 .about_img {
 	display: flex;
 	justify-content: center;
+	
 }
 .about_subtitle {
 	margin-bottom: var(--mb-2);
 }
 .about_img img {
 	width: 100px;
-	border-radius: 0.5rem;
+	box-shadow: none;
+	/* border-radius: 0.5rem; */
 	/* padding: 20px 0; */
 }
 
